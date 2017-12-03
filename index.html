@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>WebChat</title>
+    
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+
+<div id="chatbox">
+	<div id="friendslist">
+    	<div id="topmenu">
+        	<span class="friends"></span>
+            <span class="chats"></span>
+            <span class="history"></span>
+        </div>
+        
+        <div id="friends">
+        	<div class="friend">
+            	<img src="1.png" />
+                <p>
+                	<strong>Friend1</strong>
+	                <span>Friend1@gmail.com</span>
+                </p>
+                <div class="status available"></div>
+            </div>
+            
+            <div class="friend">
+            	<img src="2.png" />
+                <p>
+                	<strong>Friend 2</strong>
+	                <span>Friend2@gmail.com</span>
+                </p>
+                <div class="status away"></div>
+            </div>
+            
+            <div class="friend">
+            	<img src="3.png" />
+                <p>
+                	<strong>Friend3</strong>
+	                <span>Friend3@gmail.com</span>
+                </p>
+                <div class="status inactive"></div>
+            </div>
+            
+            <div class="friend">
+            	<img src="4.png" />
+                <p>
+                	<strong>Friend4</strong>
+	                <span>Friend4@gmail.com</span>
+                </p>
+                <div class="status inactive"></div>
+            </div>
+            
+            <div class="friend">
+            	<img src="5.png" />
+                <p>
+                <strong>Friend5</strong>
+	                <span>Friend5@gmail.com</span>
+                </p>
+                <div class="status inactive"></div>
+            </div>
+            
+            <div id="search">
+	            <input type="text" id="searchfield" value="Search contacts..." />
+            </div>
+            
+        </div>                
+        
+    </div>	
+    
+    <div id="chatview" class="p1">    	
+        <div id="profile">
+
+            <div id="close">
+                <div class="cy"></div>
+                <div class="cx"></div>
+            </div>
+            
+            <p>Friend1</p>
+            <span>Friend1@gmail.com</span>
+        </div>
+        <div id="chat-messages">
+        	<label>Thursday 02</label>
+            
+            <div class="message">
+            	<img src="1.png" />
+                <div class="bubble">
+                	Hey how's it going?
+                    <div class="corner"></div>
+                    <span>3 min</span>
+                </div>
+            </div>
+            
+            <div class="message right">
+            	<img src="2.png" />
+                <div class="bubble">
+                	Good! Good! What about you?
+                    <div class="corner"></div>
+                    <span>1 min</span>
+                </div>
+            </div>
+            
+            <div class="message">
+            	<img src="1.png" />
+                <div class="bubble">
+                	Same
+                    <div class="corner"></div>
+                    <span>Now</span>
+                </div>
+            </div>
+            
+            <div class="message right">
+            	<img src="2.png" />
+                <div class="bubble">
+                	Can you share a link for the tutorial?
+                    <div class="corner"></div>
+                    <span>1 min</span>
+                </div>
+            </div>
+            
+            <div class="message">
+            	<img src="1.png" />
+                <div class="bubble">
+                	Yeah, hold on
+                    <div class="corner"></div>
+                    <span>Now</span>
+                </div>
+            </div>
+            
+        </div>
+    	
+        <div id="sendmessage">
+        	<input type="text" value="Send message..." />
+            <button id="send"></button>
+        </div>
+    
+    </div>        
+</div>	
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
